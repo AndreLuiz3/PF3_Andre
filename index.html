@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <main class="main">
+
+    <div class="section">
+
+
+        <div class="title">Calculadora Valor Poupado</div>
+
+        
+
+        <div class="input">
+            <label for="email">Digite seu nome:</label>
+            <input class="form-control" type="text" id='nome' required="required">
+       </div>
+       
+       <br>
+
+       <div class="input">
+        <label for="email">Digite o valor aplicado mensalmente:</label>
+        <input class="form-control" type="number" id='valor' required="required">
+        </div>
+
+        <br>
+
+       <div class="input">
+        <label for="email">Digite a taxa de juros (ao mes):</label>
+         <input class="form-control" type="number" id='juros' required="required" >
+        </div>
+
+        <br>
+
+       <div class="input">
+        <label for="email">Digite o numero de parcelas mensais:</label>
+           <input class="form-control" type="number" id='parcelas'required="required">
+       </div>
+
+       <br>
+
+       <button class="buton" id='calcular'>Calcular</button>
+
+       <br>
+       
+       <div class="result" id='resultado'></div>
+
+    </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+

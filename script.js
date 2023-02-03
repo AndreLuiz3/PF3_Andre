@@ -13,7 +13,7 @@ function poupar () {
         const taxa = (juros/100);
         const vf = (valor*((((1+taxa)**parcelas)-1)/taxa)).toFixed(2);
 
-        resultado.textContent = `Olá ${nome}, se você aplicar ${valor}, à taxa de juros de ${juros} ao mês, durante ${parcelas}, acumulará uma poupança de R$ ${vf}.`;
+        resultado.textContent = `Olá ${nome}, se você aplicar R$ ${valor}, à taxa de juros de ${juros} ao mês, durante ${parcelas}, acumulará uma poupança de R$ ${vf}.`;
 
     }else{
         resultado.textContent = 'Preencha todos os campos.';
